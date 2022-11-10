@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+    font-family: 'Red Hat Display', sans-serif;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    min-height: 100vh;
+    
+}
+.card{
+    overflow: hidden;
+    margin: 70px 500px 0px;
+    width:349px;
+    border: 1px solid transparent;
+    transform: translate(-25% -25%);
+    border-radius: 25px;
+    text-align: center;
+    background-color: white;
+    display: block;
+    box-shadow: 3px 3px 3px hsl(223, 47%, 23% 0.15);
+}
+.hero{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: 25px
+}
+h3{
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+    margin-bottom: 10px;
+}
+.millions{
+    font-weight: 500;
+    color:hsl(224, 23%, 55%);
+    margin-bottom: 30px;
+
+
+}
+.flex{
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+    margin: 10px 20px;
+    border-radius: 10px;
+    padding-top: 15px;
+    width: 89%;
+}
+.plan{
+    margin-left: -30px;
+   }
+.click{
+    height: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: underline;
+    transform: translateY(7px);
+    margin-right: 0px;
+
+}
+span{
+    font-weight: 900;
+}
+.click:hover{
+    text-decoration: none;
+}
+.links{
+    display: block;
+}
+.pay{
+    width: 89%;
+    border-radius: 10px;
+    background-color:hsl(223, 100%, 25%);
+    height: 40px;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 15px;
+    font-weight: 700;
+    border:1px solid transparent;
+    box-shadow: 5px 8px 15px #888888;
+}
+.order{
+    height: 40px;
+    color: white;
+    cursor:pointer;
+    color:hsl(225, 3%, 46%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+.pay:hover{
+    background-color:hsl(223, 44%, 34%) ;
+}
+.order:hover{
+    color: black;
+}
+@media only screen and (max-width: 375px){
+    body{
+        background-image: url(/images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: hsl(225, 100%, 94%);
+    }
+    .card{
+        margin: 10px 10px 0px;
+    }
+}
